@@ -23,6 +23,7 @@
 				<ul>
 					<li>Please Choose Day: 
 						<ul>
+						<!--Checkbox-->
 							<li><input	type="checkbox" unchecked value=Monday" id="monday" /><for="monday">Monday</label></li>
 							<li><input	type="checkbox" unchecked value=Tuesday" id="tuesday" /><for="tuesday">Tuesday</label></li>
 							<li><input	type="checkbox" unchecked value=Wednesday" id="wednesday" /><for="wednesday">Wednesday</label></li>
@@ -32,6 +33,7 @@
 					</li>
 					<br>
 					<li>
+						<!--Input Forms-->
 						<form>
 						Subject: <input type="text" name="Subject" /> <br />
 						<br> 
@@ -40,11 +42,13 @@
 						</form>
 					<br>
 					<li>
+					<!--Range Slider-->
 					<form action="Age" method="get">
 					Age: <input type="range" name="Age" min="1" max="100" />
 					<p>
-					<li>	
-						<label for="tasks">Task Categories</label>
+					<li>
+					<!--Drop Down Menu-->	
+						<label for="tasks">Task Categories:</label>
 						<select id="tasks">
 							<option value="Create Tests">Choose a Task</option>
 							<option value="Create Tests">Create Tests</option>
@@ -57,13 +61,19 @@
 						</select>
 					</li>
 					<br>
+					<!--Calendar Date-->
 					<li>
 					<form>
 						Due Date: <input type="date" name="Due Date" />
 					</form>
-					<br>
+					<br> <!--Notes-->
 					<li><label for="comments"> My Notes: </label><textarea id="comments">Type notes here.</textarea></li>
 			</fieldset>
+			<!--Submit Button-->
 		<br><input type="submit" value="Submit my task!"/>
+		<br>
+		<!--Links-->
+		<a href="url">Clear Stored Data</a>
+		<a href="url">Display Data</a>
 	 </body>
     </html>
