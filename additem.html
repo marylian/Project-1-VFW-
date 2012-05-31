@@ -19,9 +19,9 @@
 		<h1>Weekly Teacher Tasks</h1>
     	<form action="#" method="post">
   			<fieldset>
-				<legend>Days of the Week</legend>
+				<legend>Add a Task</legend>
 				<ul>
-					<li>Please Choose: 
+					<li>Please Choose Day: 
 						<ul>
 							<li><input	type="checkbox" unchecked value=Monday" id="monday" /><for="monday">Monday</label></li>
 							<li><input	type="checkbox" unchecked value=Tuesday" id="tuesday" /><for="tuesday">Tuesday</label></li>
@@ -31,9 +31,18 @@
 						</ul> 	
 					</li>
 					<br>
+					<li>
+						<form>
+						Subject: <input type="text" name="Subject" /> <br />
+						<br> 
+						<li>
+						Period: <input type="text" name="Period" />
+						</form>
+					<br>
 					<li>	
 						<label for="tasks">Task Categories</label>
 						<select id="tasks">
+							<option value="Create Tests">Choose a Task</option>
 							<option value="Create Tests">Create Tests</option>
 							<option value="Look for Project Ideas">Look for Project Ideas</option>
 							<option value="Complete Lesson Plans">Complete Lesson Plans</option>
@@ -45,6 +54,7 @@
 					</li>
 					<br>
 					<li><label for="comments"> My Notes: </label><textarea id="comments">Type notes here.</textarea></li>
+		</fieldset>
 		<br><input type="submit" value="Submit my task!"/>
 	 </body>
     </html>
